@@ -23,15 +23,18 @@ This project implements a simple first-order Infinite Impulse Response (IIR) low
 - The example input is an array of noisy sine-like samples.
 - The program prints the input and filtered signals side by side.
 
-## How to compile and run
 
-Use `gcc` to compile:
+## How to compile with gcc
 
-```bash
-gcc -o iir_filter iir_filter.c
-./iir_filter
-Output
+- To compile you must use the following instructions in the bash:
+
+      gcc -o iir_filter iir_filter.c
+      ./iir_filter
+
+## Output
+
 The program outputs a table showing the input and filtered signals.
 
-License
+## License
+
 This code is released under the MIT License.
